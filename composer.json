@@ -1,0 +1,34 @@
+{
+    "name": "lamoda/gs1-barcode-validator-rules",
+    "description": "GS1 Barcode validator rules collection",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lamoda developers",
+            "homepage": "https://tech.lamoda.ru/"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.1",
+        "lamoda/gs1-barcode-parser": "^0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lamoda\\GS1BarcodeValidatorRules\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lamoda\\GS1BarcodeValidatorRules\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.15",
+        "phpunit/phpunit": "^7.5 | ^8.2"
+    }
+}
